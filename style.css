@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dece40b0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50rem; */
+    margin: 20px auto;
+}
+.main h1{
+    font-size: 50px;
+    color: rgb(42, 25, 194);
+    text-align: center;
+    
+    
+}
+.main h2{
+    display: inline-block;
+    color: rgb(42, 25, 194);
+    padding: 20px 15px;
+    background-color: rgb(242, 237, 230);
+    border-radius: 20px;
+    margin: 6px;
+    box-shadow: 1px 1px 2px black;
+}
+button{
+    margin: 6px;
+    width: 12rem;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(242, 237, 230);
+     box-shadow: 1px 1px 2px black;
+}
+button:hover{
+    cursor: pointer;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square{
+    width: 180px;
+    height: 160px;
+    border: 1px solid black;
+    box-shadow: 3px 5px 5px  rgb(42, 25, 194);;
+    margin: 10px;
+}
+.mole{
+    background : url(./downloads/molePicture.jpg);
+    background-size: cover;
+}
