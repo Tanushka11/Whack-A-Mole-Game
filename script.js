@@ -37,8 +37,7 @@ randomMole();
 function startGame() {
   score = 0;
   timeLeft = 60;
-  scoreH2.innerHTML= 'Your score : 0';
-  timeLeft.innerHTML = 'Time left : 60';
+  
   pauseGameButton.innerHTML = 'pause'
   gameMusic.play();
   // call back function
